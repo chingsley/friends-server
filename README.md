@@ -1,8 +1,9 @@
-# HTTP/AJAX
+# Server for the Friends App
 
 Topics:
 
 * `axios` package
+* HTTP
 * AJAX
 * Promises
 
