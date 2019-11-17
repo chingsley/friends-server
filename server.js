@@ -13,6 +13,16 @@ const getImageId = () => {
   return Math.floor(Math.random() * 1001);
 };
 
+const defaultDescription = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae beatae nam voluptas,
+velit officia magnam excepturi, nostrum ad error deserunt ipsam amet quaerat dolore enim minima assumenda voluptatum
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sunt molestias maiores repellendus libero dicta ipsa
+dolores eaque sequi nisi neque perspiciatis, ipsum sint mollitia? Molestias aliquam iste voluptatem dicta?Lorem ipsum
+dolor sit amet consectetur adipisicing elit. Impedit sunt molestias maiores repellendus libero dicta ipsa dolores eaque
+sequi nisi neque perspiciatis, ipsum sint mollitia? Molestias aliquam iste voluptatem dicta?Lorem ipsum dolor sit amet
+consectetur adipisicing elit. Impedit sunt molestias maiores repellendus libero dicta ipsa dolores eaque sequi nisi neque
+perspiciatis, ipsum sint mollitia? Molestias aliquam iste voluptatem dicta? laudantium dicta.
+`;
+
 let friends = [
   {
     id: 1,
@@ -20,7 +30,7 @@ let friends = [
     age: 30,
     email: 'ben@lambdaschool.com',
     image: `https://picsum.photos/id/${getImageId()}/1000/1000`,
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum animi natus facilis placeat veritatis, ...'
+    description: defaultDescription,
   },
   {
     id: 2,
@@ -28,7 +38,7 @@ let friends = [
     age: 32,
     email: 'austen@lambdaschool.com',
     image: `https://picsum.photos/id/${getImageId()}/1000/1000`,
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum animi natus facilis placeat veritatis, ...'
+    description: defaultDescription,
   },
   {
     id: 3,
@@ -36,7 +46,7 @@ let friends = [
     age: 35,
     email: 'ryan@lambdaschool.com',
     image: `https://picsum.photos/id/${getImageId()}/1000/1000`,
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum animi natus facilis placeat veritatis, ...'
+    description: defaultDescription,
   },
   {
     id: 4,
@@ -44,7 +54,7 @@ let friends = [
     age: 35,
     email: 'sean@lambdaschool.com',
     image: `https://picsum.photos/id/${getImageId()}/1000/1000`,
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum animi natus facilis placeat veritatis, ...'
+    description: defaultDescription,
   },
   {
     id: 5,
@@ -52,7 +62,7 @@ let friends = [
     age: 67,
     email: 'michelle@gmail.com',
     image: `https://picsum.photos/id/${getImageId()}/1000/1000`,
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum animi natus facilis placeat veritatis, ...'
+    description: defaultDescription,
   },
   {
     id: 6,
@@ -60,7 +70,7 @@ let friends = [
     age: 47,
     email: 'luis@lambdaschool.com',
     image: `https://picsum.photos/id/${getImageId()}/1000/1000`,
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum animi natus facilis placeat veritatis, ...'
+    description: defaultDescription,
   },
 ];
 
